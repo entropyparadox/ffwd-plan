@@ -3,18 +3,18 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'ko-KR',
   title: 'FFWD — 서비스 기획서',
-  description: 'Fast Forward Cinema. | Future of Film, Watch & Discover',
+  description: 'The Pause Paradox. | 모두가 빨리감기할 때, 우리는 멈춘다.',
 
   head: [
     ['meta', { name: 'theme-color', content: '#0a0a0a' }],
     ['meta', { name: 'og:type', content: 'website' }],
-    ['meta', { name: 'og:title', content: 'FFWD — Fast Forward Cinema.' }],
-    ['meta', { name: 'og:description', content: 'Future of Film, Watch & Discover | 시네마틱 숏폼 스트리밍 플랫폼' }],
+    ['meta', { name: 'og:title', content: 'FFWD — The Pause Paradox.' }],
+    ['meta', { name: 'og:description', content: '모두가 빨리감기할 때, 우리는 멈춘다. | 시네마틱 숏폼 스트리밍 플랫폼' }],
   ],
 
   themeConfig: {
     logo: false,
-    siteTitle: '⏩ FFWD',
+    siteTitle: '⏸ FFWD',
 
     nav: [
       { text: '홈', link: '/' },
@@ -30,10 +30,10 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '⏩ 브랜딩 철학',
+        text: '⏸ 브랜딩 철학',
         collapsed: false,
         items: [
-          { text: '철학 — Fast Forward Cinema', link: '/10-브랜딩/철학' },
+          { text: '철학 — The Pause Paradox', link: '/10-브랜딩/철학' },
           { text: '버벌 브랜딩 & 아이덴티티', link: '/10-브랜딩/버벌브랜딩' },
           { text: '서비스 프로그램', link: '/10-브랜딩/서비스전개' },
           { text: 'Augments 시스템', link: '/10-브랜딩/augments' },
@@ -193,7 +193,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'FFWD — Fast Forward Cinema. Future of Film, Watch & Discover.',
+      message: 'FFWD — The Pause Paradox. 모두가 빨리감기할 때, 우리는 멈춘다.',
       copyright: '© 2026 FFWD (이정재 × 키넥션 JV)',
     },
 

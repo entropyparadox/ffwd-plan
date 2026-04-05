@@ -35,10 +35,10 @@ function onKeydown(e: KeyboardEvent) {
   <slot v-if="authenticated" />
   <div v-else class="gate">
     <div class="gate-content">
-      <div class="logo">⏩</div>
+      <div class="logo">⏸</div>
       <h1 class="title">FFWD</h1>
-      <p class="tagline">Fast Forward Cinema.</p>
-      <p class="subtitle">Future of Film, Watch & Discover</p>
+      <p class="tagline">The Pause Paradox.</p>
+      <p class="subtitle">모두가 빨리감기할 때, 우리는 멈춘다.</p>
       <div class="input-group">
         <input
           v-model="password"
